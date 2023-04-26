@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Mental Health Chatbot</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Chatbot</h1>
+        <div id="authentication">
+            <div class="auth-form">
+                <h2>Create Account</h2>
+                <input type="text" id="register-username" placeholder="Username">
+                <input type="password" id="register-password" placeholder="Password">
+                <button id="register-btn">Create Account</button>
+            </div>
+            <div class="auth-form">
+                <h2>Sign In</h2>
+                <input type="text" id="login-username" placeholder="Username">
+                <input type="password" id="login-password" placeholder="Password">
+                <button id="login-btn">Sign In</button>
+            </div>
+        </div>
+        <div id="chat" class="hidden">
+            <div id="chat-messages"></div>
+            <div class="message-input">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

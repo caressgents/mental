@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+jinja2
+python-dotenv
+aiosqlite
+
